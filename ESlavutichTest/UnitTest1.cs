@@ -1,14 +1,17 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
+//using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ESlavutichTest
 {
-    [TestClass]
-    public class UnitTest1
+    [TestFixture]
+    public class ESlavutichTest
     {
-        [TestMethod]
+        [Test]
         public void TestMethod1()
         {
+
+
         }
     }
 }
